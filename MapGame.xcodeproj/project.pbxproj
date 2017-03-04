@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADDAC3541E6B33BB003DA29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAC3531E6B33BB003DA29B /* AppDelegate.swift */; };
+		ADDAC3561E6B33BB003DA29B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAC3551E6B33BB003DA29B /* ViewController.swift */; };
+		ADDAC3591E6B33BB003DA29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDAC3571E6B33BB003DA29B /* Main.storyboard */; };
+		ADDAC35B1E6B33BB003DA29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDAC35A1E6B33BB003DA29B /* Assets.xcassets */; };
+		ADDAC35E1E6B33BB003DA29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDAC35C1E6B33BB003DA29B /* LaunchScreen.storyboard */; };
+		ADDAC3691E6B33BB003DA29B /* MapGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAC3681E6B33BB003DA29B /* MapGameTests.swift */; };
+		ADDAC3741E6B33BB003DA29B /* MapGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAC3731E6B33BB003DA29B /* MapGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADDAC3651E6B33BB003DA29B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADDAC3481E6B33BA003DA29B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADDAC34F1E6B33BA003DA29B;
+			remoteInfo = MapGame;
+		};
+		ADDAC3701E6B33BB003DA29B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADDAC3481E6B33BA003DA29B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADDAC34F1E6B33BA003DA29B;
+			remoteInfo = MapGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADDAC3501E6B33BB003DA29B /* MapGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDAC3531E6B33BB003DA29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADDAC3551E6B33BB003DA29B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADDAC3581E6B33BB003DA29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADDAC35A1E6B33BB003DA29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADDAC35D1E6B33BB003DA29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADDAC35F1E6B33BB003DA29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDAC3641E6B33BB003DA29B /* MapGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDAC3681E6B33BB003DA29B /* MapGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGameTests.swift; sourceTree = "<group>"; };
+		ADDAC36A1E6B33BB003DA29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDAC36F1E6B33BB003DA29B /* MapGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDAC3731E6B33BB003DA29B /* MapGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGameUITests.swift; sourceTree = "<group>"; };
+		ADDAC3751E6B33BB003DA29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADDAC34D1E6B33BA003DA29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDAC3611E6B33BB003DA29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDAC36C1E6B33BB003DA29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADDAC3471E6B33BA003DA29B = {
+			isa = PBXGroup;
+			children = (
+				ADDAC3521E6B33BB003DA29B /* MapGame */,
+				ADDAC3671E6B33BB003DA29B /* MapGameTests */,
+				ADDAC3721E6B33BB003DA29B /* MapGameUITests */,
+				ADDAC3511E6B33BB003DA29B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADDAC3511E6B33BB003DA29B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADDAC3501E6B33BB003DA29B /* MapGame.app */,
+				ADDAC3641E6B33BB003DA29B /* MapGameTests.xctest */,
+				ADDAC36F1E6B33BB003DA29B /* MapGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADDAC3521E6B33BB003DA29B /* MapGame */ = {
+			isa = PBXGroup;
+			children = (
+				ADDAC3531E6B33BB003DA29B /* AppDelegate.swift */,
+				ADDAC3551E6B33BB003DA29B /* ViewController.swift */,
+				ADDAC3571E6B33BB003DA29B /* Main.storyboard */,
+				ADDAC35A1E6B33BB003DA29B /* Assets.xcassets */,
+				ADDAC35C1E6B33BB003DA29B /* LaunchScreen.storyboard */,
+				ADDAC35F1E6B33BB003DA29B /* Info.plist */,
+			);
+			path = MapGame;
+			sourceTree = "<group>";
+		};
+		ADDAC3671E6B33BB003DA29B /* MapGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADDAC3681E6B33BB003DA29B /* MapGameTests.swift */,
+				ADDAC36A1E6B33BB003DA29B /* Info.plist */,
+			);
+			path = MapGameTests;
+			sourceTree = "<group>";
+		};
+		ADDAC3721E6B33BB003DA29B /* MapGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADDAC3731E6B33BB003DA29B /* MapGameUITests.swift */,
+				ADDAC3751E6B33BB003DA29B /* Info.plist */,
+			);
+			path = MapGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADDAC34F1E6B33BA003DA29B /* MapGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDAC3781E6B33BB003DA29B /* Build configuration list for PBXNativeTarget "MapGame" */;
+			buildPhases = (
+				ADDAC34C1E6B33BA003DA29B /* Sources */,
+				ADDAC34D1E6B33BA003DA29B /* Frameworks */,
+				ADDAC34E1E6B33BA003DA29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapGame;
+			productName = MapGame;
+			productReference = ADDAC3501E6B33BB003DA29B /* MapGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADDAC3631E6B33BB003DA29B /* MapGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDAC37B1E6B33BB003DA29B /* Build configuration list for PBXNativeTarget "MapGameTests" */;
+			buildPhases = (
+				ADDAC3601E6B33BB003DA29B /* Sources */,
+				ADDAC3611E6B33BB003DA29B /* Frameworks */,
+				ADDAC3621E6B33BB003DA29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADDAC3661E6B33BB003DA29B /* PBXTargetDependency */,
+			);
+			name = MapGameTests;
+			productName = MapGameTests;
+			productReference = ADDAC3641E6B33BB003DA29B /* MapGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADDAC36E1E6B33BB003DA29B /* MapGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDAC37E1E6B33BB003DA29B /* Build configuration list for PBXNativeTarget "MapGameUITests" */;
+			buildPhases = (
+				ADDAC36B1E6B33BB003DA29B /* Sources */,
+				ADDAC36C1E6B33BB003DA29B /* Frameworks */,
+				ADDAC36D1E6B33BB003DA29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADDAC3711E6B33BB003DA29B /* PBXTargetDependency */,
+			);
+			name = MapGameUITests;
+			productName = MapGameUITests;
+			productReference = ADDAC36F1E6B33BB003DA29B /* MapGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADDAC3481E6B33BA003DA29B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TranAn;
+				TargetAttributes = {
+					ADDAC34F1E6B33BA003DA29B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 63WQ52A53D;
+						ProvisioningStyle = Automatic;
+					};
+					ADDAC3631E6B33BB003DA29B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 63WQ52A53D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADDAC34F1E6B33BA003DA29B;
+					};
+					ADDAC36E1E6B33BB003DA29B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 63WQ52A53D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADDAC34F1E6B33BA003DA29B;
+					};
+				};
+			};
+			buildConfigurationList = ADDAC34B1E6B33BA003DA29B /* Build configuration list for PBXProject "MapGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADDAC3471E6B33BA003DA29B;
+			productRefGroup = ADDAC3511E6B33BB003DA29B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADDAC34F1E6B33BA003DA29B /* MapGame */,
+				ADDAC3631E6B33BB003DA29B /* MapGameTests */,
+				ADDAC36E1E6B33BB003DA29B /* MapGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADDAC34E1E6B33BA003DA29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDAC35E1E6B33BB003DA29B /* LaunchScreen.storyboard in Resources */,
+				ADDAC35B1E6B33BB003DA29B /* Assets.xcassets in Resources */,
+				ADDAC3591E6B33BB003DA29B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDAC3621E6B33BB003DA29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDAC36D1E6B33BB003DA29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADDAC34C1E6B33BA003DA29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDAC3561E6B33BB003DA29B /* ViewController.swift in Sources */,
+				ADDAC3541E6B33BB003DA29B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDAC3601E6B33BB003DA29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDAC3691E6B33BB003DA29B /* MapGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDAC36B1E6B33BB003DA29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDAC3741E6B33BB003DA29B /* MapGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADDAC3661E6B33BB003DA29B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADDAC34F1E6B33BA003DA29B /* MapGame */;
+			targetProxy = ADDAC3651E6B33BB003DA29B /* PBXContainerItemProxy */;
+		};
+		ADDAC3711E6B33BB003DA29B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADDAC34F1E6B33BA003DA29B /* MapGame */;
+			targetProxy = ADDAC3701E6B33BB003DA29B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADDAC3571E6B33BB003DA29B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADDAC3581E6B33BB003DA29B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADDAC35C1E6B33BB003DA29B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADDAC35D1E6B33BB003DA29B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADDAC3761E6B33BB003DA29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADDAC3771E6B33BB003DA29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADDAC3791E6B33BB003DA29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63WQ52A53D;
+				INFOPLIST_FILE = MapGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranAn.MapGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ADDAC37A1E6B33BB003DA29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63WQ52A53D;
+				INFOPLIST_FILE = MapGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranAn.MapGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ADDAC37C1E6B33BB003DA29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 63WQ52A53D;
+				INFOPLIST_FILE = MapGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranAn.MapGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapGame.app/MapGame";
+			};
+			name = Debug;
+		};
+		ADDAC37D1E6B33BB003DA29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 63WQ52A53D;
+				INFOPLIST_FILE = MapGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranAn.MapGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapGame.app/MapGame";
+			};
+			name = Release;
+		};
+		ADDAC37F1E6B33BB003DA29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 63WQ52A53D;
+				INFOPLIST_FILE = MapGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranAn.MapGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MapGame;
+			};
+			name = Debug;
+		};
+		ADDAC3801E6B33BB003DA29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 63WQ52A53D;
+				INFOPLIST_FILE = MapGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranAn.MapGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MapGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADDAC34B1E6B33BA003DA29B /* Build configuration list for PBXProject "MapGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDAC3761E6B33BB003DA29B /* Debug */,
+				ADDAC3771E6B33BB003DA29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDAC3781E6B33BB003DA29B /* Build configuration list for PBXNativeTarget "MapGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDAC3791E6B33BB003DA29B /* Debug */,
+				ADDAC37A1E6B33BB003DA29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADDAC37B1E6B33BB003DA29B /* Build configuration list for PBXNativeTarget "MapGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDAC37C1E6B33BB003DA29B /* Debug */,
+				ADDAC37D1E6B33BB003DA29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADDAC37E1E6B33BB003DA29B /* Build configuration list for PBXNativeTarget "MapGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDAC37F1E6B33BB003DA29B /* Debug */,
+				ADDAC3801E6B33BB003DA29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADDAC3481E6B33BA003DA29B /* Project object */;
+}
