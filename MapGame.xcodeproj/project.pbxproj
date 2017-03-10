@@ -48,6 +48,9 @@
 		04777DA71E72F25F006E481C /* icon_game.png in Resources */ = {isa = PBXBuildFile; fileRef = 04777DA51E72F25F006E481C /* icon_game.png */; };
 		04777DA81E72F25F006E481C /* icon_video.png in Resources */ = {isa = PBXBuildFile; fileRef = 04777DA61E72F25F006E481C /* icon_video.png */; };
 		04777DAA1E72F566006E481C /* icon_treasure.png in Resources */ = {isa = PBXBuildFile; fileRef = 04777DA91E72F566006E481C /* icon_treasure.png */; };
+		04777DAC1E73183E006E481C /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 04777DAB1E73183E006E481C /* tessdata */; };
+		04777DAE1E732140006E481C /* WriteWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777DAD1E732140006E481C /* WriteWordsViewController.swift */; };
+		04777DB51E732439006E481C /* DAScratchPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777DB41E732439006E481C /* DAScratchPadView.m */; };
 		047AA8601E72CAF40035C06B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AA85F1E72CAF40035C06B /* HomeViewController.swift */; };
 		047AA89E1E72CB4E0035C06B /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047AA88A1E72CB4E0035C06B /* background.jpg */; };
 		047AA89F1E72CB4E0035C06B /* icon_camera.ico in Resources */ = {isa = PBXBuildFile; fileRef = 047AA88B1E72CB4E0035C06B /* icon_camera.ico */; };
@@ -150,6 +153,11 @@
 		04777DA51E72F25F006E481C /* icon_game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_game.png; sourceTree = "<group>"; };
 		04777DA61E72F25F006E481C /* icon_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_video.png; sourceTree = "<group>"; };
 		04777DA91E72F566006E481C /* icon_treasure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_treasure.png; sourceTree = "<group>"; };
+		04777DAB1E73183E006E481C /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		04777DAD1E732140006E481C /* WriteWordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteWordsViewController.swift; sourceTree = "<group>"; };
+		04777DAF1E7323DB006E481C /* MapGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapGame-Bridging-Header.h"; sourceTree = "<group>"; };
+		04777DB31E732439006E481C /* DAScratchPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAScratchPadView.h; sourceTree = "<group>"; };
+		04777DB41E732439006E481C /* DAScratchPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAScratchPadView.m; sourceTree = "<group>"; };
 		047AA85F1E72CAF40035C06B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		047AA88A1E72CB4E0035C06B /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		047AA88B1E72CB4E0035C06B /* icon_camera.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = icon_camera.ico; sourceTree = "<group>"; };
@@ -246,6 +254,7 @@
 				047AA8C01E72D31E0035C06B /* ThemeVideoViewController.swift */,
 				047AA8BE1E72D2F70035C06B /* ProfileViewController.swift */,
 				ADDAC3551E6B33BB003DA29B /* ViewController.swift */,
+				04777DAD1E732140006E481C /* WriteWordsViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -255,6 +264,8 @@
 			children = (
 				0461E4F11E71B98700A5A026 /* ShowPopupViewController.swift */,
 				047AA8BA1E72D0A90035C06B /* BaseViewController.swift */,
+				04777DB31E732439006E481C /* DAScratchPadView.h */,
+				04777DB41E732439006E481C /* DAScratchPadView.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -427,7 +438,9 @@
 				AD7D80C91E6C105300255C42 /* co.jpg */,
 				AD8536561E6D04DB00D8FD7E /* CustomCollectionViewCell.swift */,
 				AD8536581E6D08D200D8FD7E /* rock.png */,
+				04777DAB1E73183E006E481C /* tessdata */,
 				AD85365A1E6D099700D8FD7E /* question-mark.png */,
+				04777DAF1E7323DB006E481C /* MapGame-Bridging-Header.h */,
 			);
 			path = MapGame;
 			sourceTree = "<group>";
@@ -522,6 +535,7 @@
 					ADDAC34F1E6B33BA003DA29B = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = MN2Q6N2HN8;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					ADDAC3631E6B33BB003DA29B = {
@@ -592,6 +606,7 @@
 				ADDAC3591E6B33BB003DA29B /* Main.storyboard in Resources */,
 				AD7D80CA1E6C105300255C42 /* co.jpg in Resources */,
 				047AA8DF1E72EF610035C06B /* icon_texxt_to_speak.png in Resources */,
+				04777DAC1E73183E006E481C /* tessdata in Resources */,
 				047AA8AD1E72CB4E0035C06B /* icon_true.png in Resources */,
 				047AA8B31E72CB800035C06B /* icon_home.png in Resources */,
 				047AA89E1E72CB4E0035C06B /* background.jpg in Resources */,
@@ -672,11 +687,13 @@
 			files = (
 				0461E4CB1E71B2B600A5A026 /* SpringButton.swift in Sources */,
 				0461E4C81E71B2B600A5A026 /* SoundPlayer.swift in Sources */,
+				04777DAE1E732140006E481C /* WriteWordsViewController.swift in Sources */,
 				0461E4CF1E71B2B600A5A026 /* SpringTextView.swift in Sources */,
 				0461E4BF1E71B2B600A5A026 /* DesignableTextField.swift in Sources */,
 				0461E4C01E71B2B600A5A026 /* DesignableTextView.swift in Sources */,
 				047AA8BF1E72D2F70035C06B /* ProfileViewController.swift in Sources */,
 				047AA8B71E72CF8B0035C06B /* GameWriteViewController.swift in Sources */,
+				04777DB51E732439006E481C /* DAScratchPadView.m in Sources */,
 				0461E4D21E71B2B600A5A026 /* TransitionZoom.swift in Sources */,
 				0461E4CE1E71B2B600A5A026 /* SpringTextField.swift in Sources */,
 				0461E4F21E71B98700A5A026 /* ShowPopupViewController.swift in Sources */,
@@ -865,12 +882,15 @@
 			baseConfigurationReference = B3EA5ABC58AFA2AF3656D12E /* Pods-MapGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = MN2Q6N2HN8;
 				INFOPLIST_FILE = MapGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MapGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapGame/MapGame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -880,12 +900,14 @@
 			baseConfigurationReference = 76588B8CB5427B02E6C47F57 /* Pods-MapGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = MN2Q6N2HN8;
 				INFOPLIST_FILE = MapGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MapGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapGame/MapGame-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

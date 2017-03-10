@@ -11,7 +11,8 @@ import UIKit
 class GameWriteViewController: BaseViewController {
 
     var vcTreasure = ViewController()
-
+    var vcWriteWords = WriteWordsViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,8 +31,11 @@ class GameWriteViewController: BaseViewController {
         self.present(vcTreasure, animated: true, completion: nil)
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        
+    @IBAction func clickWriteWords(_ sender: Any) {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        vcWriteWords = storyboard.instantiateViewController(withIdentifier: "WriteWordsViewController") as UIViewController as! WriteWordsViewController
+        self.present(vcWriteWords, animated: true, completion: nil)
     }
+    
     
 }

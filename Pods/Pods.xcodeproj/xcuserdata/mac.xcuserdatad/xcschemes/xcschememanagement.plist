@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TesseractOCRiOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -27,12 +32,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B0D26FD25EC1717E4A1CD9AFCC9D430D</key>
+		<key>A3A66E1D0EEAB83C41E272A9D5255C23</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>C4496D5B7A7EFA690C4A215CB51012CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E3E9D60539C03D0C81A72C14F327B2AA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
