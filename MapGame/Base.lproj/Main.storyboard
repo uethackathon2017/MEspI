@@ -10,6 +10,11 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roundish Toons.ttf">
+            <string>RoundishToons</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Camera Speak View Controller-->
         <scene sceneID="3U5-5b-CW5">
@@ -71,9 +76,9 @@
                                                                 <state key="normal" backgroundImage="icon_camera.png"/>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take Photo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyh-kJ-xkq">
-                                                                <rect key="frame" x="33" y="116.5" width="121.5" height="27.5"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                                                <color key="textColor" red="1" green="0.7812838258" blue="0.26089706670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <rect key="frame" x="15" y="116.5" width="156.5" height="22.5"/>
+                                                                <fontDescription key="fontDescription" name="RoundishToons" family="Roundish Toons" pointSize="11"/>
+                                                                <color key="textColor" red="0.24309444427490234" green="0.24308130145072937" blue="0.24718469381332397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -96,9 +101,9 @@
                                                                 <state key="normal" backgroundImage="icon_texxt_to_speak.png"/>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text To Speak" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYf-W5-5VI">
-                                                                <rect key="frame" x="18" y="116.5" width="152.5" height="27.5"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                                                <color key="textColor" red="0.66565686464309692" green="0.84624177217483521" blue="0.68927770853042603" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <rect key="frame" x="5.5" y="116.5" width="177.5" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="RoundishToons" family="Roundish Toons" pointSize="10"/>
+                                                                <color key="textColor" red="0.20110610127449036" green="0.46595221757888794" blue="0.69856041669845581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -133,9 +138,9 @@
                                                         <state key="normal" backgroundImage="icon_speak.png"/>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speak To Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRZ-5h-k14">
-                                                        <rect key="frame" x="111" y="116.5" width="152.5" height="27.5"/>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                                        <color key="textColor" red="0.14735871553421021" green="0.44573318958282471" blue="0.55024069547653198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <rect key="frame" x="98.5" y="116.5" width="177.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" name="RoundishToons" family="Roundish Toons" pointSize="10"/>
+                                                        <color key="textColor" red="0.18925483819796957" green="0.57249409193596645" blue="0.71496272208121825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -585,9 +590,9 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfy-1z-EQd">
-                                                <rect key="frame" x="38" y="159" width="112" height="36"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                                <color key="textColor" red="1" green="0.7812838258" blue="0.26089706670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="34.5" y="159" width="118" height="26.5"/>
+                                                <fontDescription key="fontDescription" name="RoundishToons" family="Roundish Toons" pointSize="13"/>
+                                                <color key="textColor" red="0.57285261154174805" green="0.76836699247360229" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -611,9 +616,9 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfM-Vc-asM">
-                                                <rect key="frame" x="19" y="158" width="151" height="36"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                                <color key="textColor" red="1" green="0.7812838258" blue="0.26089706670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="12.5" y="158" width="164" height="26.5"/>
+                                                <fontDescription key="fontDescription" name="RoundishToons" family="Roundish Toons" pointSize="13"/>
+                                                <color key="textColor" red="1" green="0.97643548250198364" blue="0.97607237100601196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -637,9 +642,9 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDa-QB-df6">
-                                                <rect key="frame" x="52" y="157" width="83" height="36"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                                <color key="textColor" red="1" green="0.7812838258" blue="0.26089706670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="50" y="157" width="88.5" height="26.5"/>
+                                                <fontDescription key="fontDescription" name="RoundishToons" family="Roundish Toons" pointSize="13"/>
+                                                <color key="textColor" red="0.13418745994567871" green="0.21024814248085022" blue="0.29336544871330261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -663,9 +668,9 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7G-oq-udf">
-                                                <rect key="frame" x="47" y="158" width="92.5" height="36"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                                <color key="textColor" red="1" green="0.7812838258" blue="0.26089706670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="31.5" y="158" width="124" height="26.5"/>
+                                                <fontDescription key="fontDescription" name="RoundishToons" family="Roundish Toons" pointSize="13"/>
+                                                <color key="textColor" red="0.26890963315963745" green="0.70062237977981567" blue="0.61152011156082153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -728,10 +733,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYG-bU-ipR">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
                                 <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_navigation.png" translatesAutoresizingMaskIntoConstraints="NO" id="54f-83-2aJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7m-fh-67H">
                                         <rect key="frame" x="159.5" y="16" width="56.5" height="24"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.14793653248834773" green="0.9861493706703186" blue="0.081603634403760381" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tiK-Un-Z2c">
@@ -743,12 +751,15 @@
                                         <state key="normal" backgroundImage="icon_home.png"/>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.30196078430000001" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="9Dz-Zj-DaF"/>
                                     <constraint firstAttribute="trailing" secondItem="tiK-Un-Z2c" secondAttribute="trailing" constant="10" id="D61-7u-HFU"/>
                                     <constraint firstItem="q7m-fh-67H" firstAttribute="centerX" secondItem="tYG-bU-ipR" secondAttribute="centerX" id="EfG-Ex-4AA"/>
+                                    <constraint firstItem="54f-83-2aJ" firstAttribute="top" secondItem="tYG-bU-ipR" secondAttribute="top" id="V6M-eQ-kmq"/>
+                                    <constraint firstAttribute="bottom" secondItem="54f-83-2aJ" secondAttribute="bottom" id="VBV-kF-8BR"/>
+                                    <constraint firstItem="54f-83-2aJ" firstAttribute="leading" secondItem="tYG-bU-ipR" secondAttribute="leading" id="ehq-Qn-ULB"/>
                                     <constraint firstItem="tiK-Un-Z2c" firstAttribute="centerY" secondItem="tYG-bU-ipR" secondAttribute="centerY" id="i0E-sy-OSA"/>
+                                    <constraint firstAttribute="trailing" secondItem="54f-83-2aJ" secondAttribute="trailing" id="isz-nB-1hQ"/>
                                     <constraint firstItem="q7m-fh-67H" firstAttribute="centerY" secondItem="tYG-bU-ipR" secondAttribute="centerY" id="y6D-oi-z8Y"/>
                                 </constraints>
                             </view>
@@ -762,7 +773,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="187.5" height="153"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHw-aT-Kkd">
-                                                        <rect key="frame" x="43" y="27" width="100" height="100"/>
+                                                        <rect key="frame" x="43" y="16.5" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="L8F-MI-O3v"/>
                                                             <constraint firstAttribute="width" constant="100" id="pPi-Jh-kKv"/>
@@ -772,18 +783,26 @@
                                                             <action selector="clickGameTreasure:" destination="cqN-vK-q9s" eventType="touchUpInside" id="6gh-wf-4WY"/>
                                                         </connections>
                                                     </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PyF-Pu-Cwn">
+                                                        <rect key="frame" x="36.5" y="121.5" width="113" height="20.5"/>
+                                                        <fontDescription key="fontDescription" name="RoundishToons" family="Roundish Toons" pointSize="10"/>
+                                                        <color key="textColor" red="0.71983522176742554" green="0.40868809819221497" blue="0.180951327085495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstItem="XHw-aT-Kkd" firstAttribute="centerY" secondItem="3WT-nC-u3Q" secondAttribute="centerY" id="Th0-Ep-TZq"/>
+                                                    <constraint firstItem="PyF-Pu-Cwn" firstAttribute="centerX" secondItem="XHw-aT-Kkd" secondAttribute="centerX" id="02l-0v-vfI"/>
+                                                    <constraint firstItem="XHw-aT-Kkd" firstAttribute="centerY" secondItem="3WT-nC-u3Q" secondAttribute="centerY" constant="-10" id="Th0-Ep-TZq"/>
                                                     <constraint firstItem="XHw-aT-Kkd" firstAttribute="centerX" secondItem="3WT-nC-u3Q" secondAttribute="centerX" id="hha-tR-J7L"/>
+                                                    <constraint firstItem="PyF-Pu-Cwn" firstAttribute="top" secondItem="XHw-aT-Kkd" secondAttribute="bottom" constant="5" id="w9B-CD-x5n"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WGg-y7-coo">
                                                 <rect key="frame" x="187.5" y="0.0" width="187.5" height="153"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8h-LB-gmN">
-                                                        <rect key="frame" x="43.5" y="26.5" width="100" height="100"/>
+                                                        <rect key="frame" x="43.5" y="16.5" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="4Nx-CE-efn"/>
                                                             <constraint firstAttribute="width" constant="100" id="EwJ-Kt-A3l"/>
@@ -793,10 +812,18 @@
                                                             <action selector="clickWriteWords:" destination="cqN-vK-q9s" eventType="touchUpInside" id="5Mk-9p-erE"/>
                                                         </connections>
                                                     </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Write Words" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eO4-6N-AZI">
+                                                        <rect key="frame" x="15.5" y="121.5" width="157" height="20.5"/>
+                                                        <fontDescription key="fontDescription" name="RoundishToons" family="Roundish Toons" pointSize="10"/>
+                                                        <color key="textColor" red="0.0" green="0.45583599805831909" blue="0.45322114229202271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstItem="T8h-LB-gmN" firstAttribute="centerY" secondItem="WGg-y7-coo" secondAttribute="centerY" id="bve-fC-d2b"/>
+                                                    <constraint firstItem="T8h-LB-gmN" firstAttribute="centerY" secondItem="WGg-y7-coo" secondAttribute="centerY" constant="-10" id="bve-fC-d2b"/>
+                                                    <constraint firstItem="eO4-6N-AZI" firstAttribute="centerX" secondItem="T8h-LB-gmN" secondAttribute="centerX" id="ckf-U9-ZqN"/>
+                                                    <constraint firstItem="eO4-6N-AZI" firstAttribute="top" secondItem="T8h-LB-gmN" secondAttribute="bottom" constant="5" id="nDU-Gk-lWd"/>
                                                     <constraint firstItem="T8h-LB-gmN" firstAttribute="centerX" secondItem="WGg-y7-coo" secondAttribute="centerX" id="w9O-YD-nyy"/>
                                                 </constraints>
                                             </view>
@@ -1207,6 +1234,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="background_navigation.png" width="1632" height="240"/>
         <image name="icon_back.png" width="128" height="128"/>
         <image name="icon_camera.png" width="128" height="128"/>
         <image name="icon_chosse_image.png" width="415" height="415"/>

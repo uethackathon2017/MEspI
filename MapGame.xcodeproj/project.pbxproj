@@ -51,6 +51,8 @@
 		04777DAC1E73183E006E481C /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 04777DAB1E73183E006E481C /* tessdata */; };
 		04777DAE1E732140006E481C /* WriteWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777DAD1E732140006E481C /* WriteWordsViewController.swift */; };
 		04777DB51E732439006E481C /* DAScratchPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777DB41E732439006E481C /* DAScratchPadView.m */; };
+		04777DB71E73324A006E481C /* background_navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = 04777DB61E73324A006E481C /* background_navigation.png */; };
+		04777DBC1E733C64006E481C /* Candy_Pop!-demo-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04777DBB1E733C64006E481C /* Candy_Pop!-demo-font.ttf */; };
 		047AA8601E72CAF40035C06B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AA85F1E72CAF40035C06B /* HomeViewController.swift */; };
 		047AA89E1E72CB4E0035C06B /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047AA88A1E72CB4E0035C06B /* background.jpg */; };
 		047AA89F1E72CB4E0035C06B /* icon_camera.ico in Resources */ = {isa = PBXBuildFile; fileRef = 047AA88B1E72CB4E0035C06B /* icon_camera.ico */; };
@@ -158,6 +160,11 @@
 		04777DAF1E7323DB006E481C /* MapGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapGame-Bridging-Header.h"; sourceTree = "<group>"; };
 		04777DB31E732439006E481C /* DAScratchPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAScratchPadView.h; sourceTree = "<group>"; };
 		04777DB41E732439006E481C /* DAScratchPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAScratchPadView.m; sourceTree = "<group>"; };
+		04777DB61E73324A006E481C /* background_navigation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_navigation.png; sourceTree = "<group>"; };
+		04777DB91E733BBF006E481C /* Patchwork Stitchlings Color.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patchwork Stitchlings Color.ttf"; sourceTree = "<group>"; };
+		04777DBA1E733BBF006E481C /* Patchwork Stitchlings.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patchwork Stitchlings.ttf"; sourceTree = "<group>"; };
+		04777DBB1E733C64006E481C /* Candy_Pop!-demo-font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Candy_Pop!-demo-font.ttf"; sourceTree = "<group>"; };
+		04777DBD1E733D86006E481C /* Roundish Toons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roundish Toons.ttf"; sourceTree = "<group>"; };
 		047AA85F1E72CAF40035C06B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		047AA88A1E72CB4E0035C06B /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		047AA88B1E72CB4E0035C06B /* icon_camera.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = icon_camera.ico; sourceTree = "<group>"; };
@@ -237,6 +244,7 @@
 		0461E4681E71B09100A5A026 /* Files */ = {
 			isa = PBXGroup;
 			children = (
+				04777DB81E733BB1006E481C /* Font */,
 				047AA8891E72CB4E0035C06B /* icon */,
 			);
 			name = Files;
@@ -351,11 +359,23 @@
 			path = Spring;
 			sourceTree = "<group>";
 		};
+		04777DB81E733BB1006E481C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				04777DB91E733BBF006E481C /* Patchwork Stitchlings Color.ttf */,
+				04777DBA1E733BBF006E481C /* Patchwork Stitchlings.ttf */,
+				04777DBD1E733D86006E481C /* Roundish Toons.ttf */,
+				04777DBB1E733C64006E481C /* Candy_Pop!-demo-font.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
 		047AA8891E72CB4E0035C06B /* icon */ = {
 			isa = PBXGroup;
 			children = (
 				047AA8C21E72DF960035C06B /* icon_game_write.png */,
 				047AA8C41E72E27C0035C06B /* icon_truefalse_image.png */,
+				04777DB61E73324A006E481C /* background_navigation.png */,
 				047AA88A1E72CB4E0035C06B /* background.jpg */,
 				047AA88B1E72CB4E0035C06B /* icon_camera.ico */,
 				047AA88C1E72CB4E0035C06B /* icon_chosse.png */,
@@ -577,6 +597,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04777DBC1E733C64006E481C /* Candy_Pop!-demo-font.ttf in Resources */,
 				047AA8C51E72E27C0035C06B /* icon_truefalse_image.png in Resources */,
 				ADDAC35E1E6B33BB003DA29B /* LaunchScreen.storyboard in Resources */,
 				0461E4B41E71B2B600A5A026 /* .gitignore in Resources */,
@@ -609,6 +630,7 @@
 				04777DAC1E73183E006E481C /* tessdata in Resources */,
 				047AA8AD1E72CB4E0035C06B /* icon_true.png in Resources */,
 				047AA8B31E72CB800035C06B /* icon_home.png in Resources */,
+				04777DB71E73324A006E481C /* background_navigation.png in Resources */,
 				047AA89E1E72CB4E0035C06B /* background.jpg in Resources */,
 				04777DA71E72F25F006E481C /* icon_game.png in Resources */,
 				047AA8DB1E72EE650035C06B /* icon_edit_profile.png in Resources */,
