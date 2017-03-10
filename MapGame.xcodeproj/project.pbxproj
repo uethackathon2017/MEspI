@@ -53,6 +53,7 @@
 		04777DB51E732439006E481C /* DAScratchPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777DB41E732439006E481C /* DAScratchPadView.m */; };
 		04777DB71E73324A006E481C /* background_navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = 04777DB61E73324A006E481C /* background_navigation.png */; };
 		04777DBC1E733C64006E481C /* Candy_Pop!-demo-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04777DBB1E733C64006E481C /* Candy_Pop!-demo-font.ttf */; };
+		04777DBF1E733F48006E481C /* Roundish Toons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04777DBE1E733F48006E481C /* Roundish Toons.ttf */; };
 		047AA8601E72CAF40035C06B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AA85F1E72CAF40035C06B /* HomeViewController.swift */; };
 		047AA89E1E72CB4E0035C06B /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047AA88A1E72CB4E0035C06B /* background.jpg */; };
 		047AA89F1E72CB4E0035C06B /* icon_camera.ico in Resources */ = {isa = PBXBuildFile; fileRef = 047AA88B1E72CB4E0035C06B /* icon_camera.ico */; };
@@ -164,7 +165,7 @@
 		04777DB91E733BBF006E481C /* Patchwork Stitchlings Color.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patchwork Stitchlings Color.ttf"; sourceTree = "<group>"; };
 		04777DBA1E733BBF006E481C /* Patchwork Stitchlings.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patchwork Stitchlings.ttf"; sourceTree = "<group>"; };
 		04777DBB1E733C64006E481C /* Candy_Pop!-demo-font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Candy_Pop!-demo-font.ttf"; sourceTree = "<group>"; };
-		04777DBD1E733D86006E481C /* Roundish Toons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roundish Toons.ttf"; sourceTree = "<group>"; };
+		04777DBE1E733F48006E481C /* Roundish Toons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roundish Toons.ttf"; sourceTree = "<group>"; };
 		047AA85F1E72CAF40035C06B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		047AA88A1E72CB4E0035C06B /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		047AA88B1E72CB4E0035C06B /* icon_camera.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = icon_camera.ico; sourceTree = "<group>"; };
@@ -364,7 +365,7 @@
 			children = (
 				04777DB91E733BBF006E481C /* Patchwork Stitchlings Color.ttf */,
 				04777DBA1E733BBF006E481C /* Patchwork Stitchlings.ttf */,
-				04777DBD1E733D86006E481C /* Roundish Toons.ttf */,
+				04777DBE1E733F48006E481C /* Roundish Toons.ttf */,
 				04777DBB1E733C64006E481C /* Candy_Pop!-demo-font.ttf */,
 			);
 			name = Font;
@@ -625,6 +626,7 @@
 				ADDAC35B1E6B33BB003DA29B /* Assets.xcassets in Resources */,
 				04777DA81E72F25F006E481C /* icon_video.png in Resources */,
 				ADDAC3591E6B33BB003DA29B /* Main.storyboard in Resources */,
+				04777DBF1E733F48006E481C /* Roundish Toons.ttf in Resources */,
 				AD7D80CA1E6C105300255C42 /* co.jpg in Resources */,
 				047AA8DF1E72EF610035C06B /* icon_texxt_to_speak.png in Resources */,
 				04777DAC1E73183E006E481C /* tessdata in Resources */,
