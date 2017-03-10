@@ -1,0 +1,12 @@
+PODS:
+  - NMPopUpViewSwift (4.0.2)
+
+DEPENDENCIES:
+  - NMPopUpViewSwift
+
+SPEC CHECKSUMS:
+  NMPopUpViewSwift: 9a2ea26dd7875804c478eb97bbc41cdab5d25da8
+
+PODFILE CHECKSUM: ce0ee6659ff77ee952fed46f875b14ed1c7db475
+
+COCOAPODS: 1.1.1
