@@ -32,10 +32,6 @@ class BaseViewController: UIViewController {
     
     func clickHome(_ sender: AnyObject?) {
         
-//        self.dismiss(animated: false, completion: { () -> Void in
-//            let usersVC: HomeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-//        })
-        
         self.dismiss(animated: true) {
             
         }

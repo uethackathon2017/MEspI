@@ -10,7 +10,7 @@ import UIKit
 import NMPopUpViewSwift
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet var viewGame: UIView!
     
     @IBOutlet weak var collectionView: UICollectionView!
@@ -45,7 +45,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clickBackHome(_ sender: Any) {
-        self.dismiss(animated: true) {
+        
+        var vc : UIViewController = self;
+        while ((vc.presentingViewController) != nil) {
+            vc = vc.presentingViewController!;
+        }
+        vc.dismiss(animated: true) { 
             
         }
     }
