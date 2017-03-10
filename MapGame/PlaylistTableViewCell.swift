@@ -9,7 +9,8 @@
 import UIKit
 
 class PlaylistTableViewCell: UITableViewCell {
-    @IBOutlet weak var webView: UIWebView!
+
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var lblDescription: UILabel!
 
     override func awakeFromNib() {
