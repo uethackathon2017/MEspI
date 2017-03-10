@@ -34,6 +34,18 @@ class ViewController: UIViewController {
         
     }
 
+    @IBAction func clickBack(_ sender: Any) {
+        self.dismiss(animated: true) {
+            
+        }
+    }
+    
+    @IBAction func clickBackHome(_ sender: Any) {
+        self.dismiss(animated: true, completion: { () -> Void in
+            let usersVC: HomeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        })
+    }
+    
 }
 
 extension ViewController : UICollectionViewDelegate{
