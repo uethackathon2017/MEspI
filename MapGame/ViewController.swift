@@ -33,6 +33,10 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         
     }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
 
     @IBAction func clickBack(_ sender: Any) {
         self.dismiss(animated: true) {
@@ -41,9 +45,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clickBackHome(_ sender: Any) {
-        self.dismiss(animated: true, completion: { () -> Void in
-            let usersVC: HomeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-        })
+        self.dismiss(animated: true) {
+            
+        }
     }
     
 }

@@ -30,4 +30,8 @@ class GameWriteViewController: BaseViewController {
         self.present(vcTreasure, animated: true, completion: nil)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        
+    }
+    
 }
