@@ -84,7 +84,7 @@ class VideoViewController: BaseViewController ,UITableViewDataSource , UITableVi
         print(indexPath.row)
         var string:String = video.idVideo
         print(indexPath.row)
-        let html = "<iframe width=\"\(UIScreen.main.bounds.size.width/2)\" height=\"\(UIScreen.main.bounds.size.width*9/32)\" src=\"http://www.youtube.com/embed/\(string)\" frameborder=\"0\" allowfullscreen></iframe>"
+        let html = "<iframe width=\"\(UIScreen.main.bounds.size.width/2)\" height=\"\(UIScreen.main.bounds.size.width*9/32)\" src=\"https://www.youtube.com/embed/\(string)\" frameborder=\"0\" allowfullscreen></iframe>"
         cell.webview.loadHTMLString(html, baseURL: nil)
         cell.webview.scrollView.isScrollEnabled = false
         cell.webview.scrollView.bounces = false
@@ -100,15 +100,5 @@ class VideoViewController: BaseViewController ,UITableViewDataSource , UITableVi
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

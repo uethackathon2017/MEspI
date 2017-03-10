@@ -10,6 +10,6 @@ import UIKit
 
 class VideoConstain {
     public static let arrayImagePlaylist = ["number","bangchucai","animal","fruit","dodunggiadinh","hoctap","job"]
-    public static let arrayDescriptionPlaylist = ["English for kids - Chữ số","English for kids - Bảng chữ cái" , "English for kids - Động vật","English for kids - Hoa quả","English for kids - Đồ dùng gia đình","English for kids - Đồ dùng học tập","English for kids - Nghề nghiệp"]
+    public static let arrayDescriptionPlaylist = ["Chữ số","Bảng chữ cái" , "Động vật","Hoa quả","Đồ dùng gia đình","Đồ dùng học tập","Nghề nghiệp"]
     public static let arrayKeyword = ["Englishforkidsnumber","Englishforkidsalphabet","Englishforkidsanimals","Englishforkidsfruit","Englishforkidsfurniture","Englishforkidsschoolsupplies","Englishforkidsjob"]
 }

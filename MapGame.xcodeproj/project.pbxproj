@@ -53,7 +53,6 @@
 		04777DB51E732439006E481C /* DAScratchPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777DB41E732439006E481C /* DAScratchPadView.m */; };
 		04777DB71E73324A006E481C /* background_navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = 04777DB61E73324A006E481C /* background_navigation.png */; };
 		04777DBC1E733C64006E481C /* Candy_Pop!-demo-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04777DBB1E733C64006E481C /* Candy_Pop!-demo-font.ttf */; };
-		04777DBF1E733F48006E481C /* Roundish Toons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04777DBE1E733F48006E481C /* Roundish Toons.ttf */; };
 		04777DC21E734232006E481C /* iconnotok.png in Resources */ = {isa = PBXBuildFile; fileRef = 04777DC01E734232006E481C /* iconnotok.png */; };
 		04777DC31E734232006E481C /* iconok.png in Resources */ = {isa = PBXBuildFile; fileRef = 04777DC11E734232006E481C /* iconok.png */; };
 		04777DC61E7342EC006E481C /* a3_bacground.png in Resources */ = {isa = PBXBuildFile; fileRef = 04777DC41E7342EC006E481C /* a3_bacground.png */; };
@@ -71,6 +70,8 @@
 		04777DE01E735C38006E481C /* Constain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777DDF1E735C38006E481C /* Constain.swift */; };
 		04777DE21E735C55006E481C /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777DE11E735C55006E481C /* VideoViewController.swift */; };
 		04777DE41E735C9C006E481C /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777DE31E735C9C006E481C /* Video.swift */; };
+		04777DE61E736679006E481C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04777DE51E736679006E481C /* Assets.xcassets */; };
+		04777DE81E736E27006E481C /* Roundish Toons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04777DE71E736E27006E481C /* Roundish Toons.ttf */; };
 		047AA8601E72CAF40035C06B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AA85F1E72CAF40035C06B /* HomeViewController.swift */; };
 		047AA89E1E72CB4E0035C06B /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047AA88A1E72CB4E0035C06B /* background.jpg */; };
 		047AA89F1E72CB4E0035C06B /* icon_camera.ico in Resources */ = {isa = PBXBuildFile; fileRef = 047AA88B1E72CB4E0035C06B /* icon_camera.ico */; };
@@ -105,7 +106,6 @@
 		ADDAC3541E6B33BB003DA29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAC3531E6B33BB003DA29B /* AppDelegate.swift */; };
 		ADDAC3561E6B33BB003DA29B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAC3551E6B33BB003DA29B /* ViewController.swift */; };
 		ADDAC3591E6B33BB003DA29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDAC3571E6B33BB003DA29B /* Main.storyboard */; };
-		ADDAC35B1E6B33BB003DA29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDAC35A1E6B33BB003DA29B /* Assets.xcassets */; };
 		ADDAC35E1E6B33BB003DA29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDAC35C1E6B33BB003DA29B /* LaunchScreen.storyboard */; };
 		ADDAC3691E6B33BB003DA29B /* MapGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAC3681E6B33BB003DA29B /* MapGameTests.swift */; };
 		ADDAC3741E6B33BB003DA29B /* MapGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAC3731E6B33BB003DA29B /* MapGameUITests.swift */; };
@@ -180,7 +180,6 @@
 		04777DB91E733BBF006E481C /* Patchwork Stitchlings Color.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patchwork Stitchlings Color.ttf"; sourceTree = "<group>"; };
 		04777DBA1E733BBF006E481C /* Patchwork Stitchlings.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patchwork Stitchlings.ttf"; sourceTree = "<group>"; };
 		04777DBB1E733C64006E481C /* Candy_Pop!-demo-font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Candy_Pop!-demo-font.ttf"; sourceTree = "<group>"; };
-		04777DBE1E733F48006E481C /* Roundish Toons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roundish Toons.ttf"; sourceTree = "<group>"; };
 		04777DC01E734232006E481C /* iconnotok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconnotok.png; sourceTree = "<group>"; };
 		04777DC11E734232006E481C /* iconok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconok.png; sourceTree = "<group>"; };
 		04777DC41E7342EC006E481C /* a3_bacground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a3_bacground.png; sourceTree = "<group>"; };
@@ -198,6 +197,8 @@
 		04777DDF1E735C38006E481C /* Constain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constain.swift; sourceTree = "<group>"; };
 		04777DE11E735C55006E481C /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		04777DE31E735C9C006E481C /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		04777DE51E736679006E481C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04777DE71E736E27006E481C /* Roundish Toons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roundish Toons.ttf"; sourceTree = "<group>"; };
 		047AA85F1E72CAF40035C06B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		047AA88A1E72CB4E0035C06B /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		047AA88B1E72CB4E0035C06B /* icon_camera.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = icon_camera.ico; sourceTree = "<group>"; };
@@ -233,7 +234,6 @@
 		ADDAC3531E6B33BB003DA29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADDAC3551E6B33BB003DA29B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADDAC3581E6B33BB003DA29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ADDAC35A1E6B33BB003DA29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADDAC35D1E6B33BB003DA29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADDAC35F1E6B33BB003DA29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADDAC3641E6B33BB003DA29B /* MapGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -399,8 +399,8 @@
 			isa = PBXGroup;
 			children = (
 				04777DB91E733BBF006E481C /* Patchwork Stitchlings Color.ttf */,
+				04777DE71E736E27006E481C /* Roundish Toons.ttf */,
 				04777DBA1E733BBF006E481C /* Patchwork Stitchlings.ttf */,
-				04777DBE1E733F48006E481C /* Roundish Toons.ttf */,
 				04777DBB1E733C64006E481C /* Candy_Pop!-demo-font.ttf */,
 			);
 			name = Font;
@@ -506,8 +506,8 @@
 				0461E4681E71B09100A5A026 /* Files */,
 				ADDAC3531E6B33BB003DA29B /* AppDelegate.swift */,
 				ADDAC3571E6B33BB003DA29B /* Main.storyboard */,
-				ADDAC35A1E6B33BB003DA29B /* Assets.xcassets */,
 				ADDAC35C1E6B33BB003DA29B /* LaunchScreen.storyboard */,
+				04777DE51E736679006E481C /* Assets.xcassets */,
 				ADDAC35F1E6B33BB003DA29B /* Info.plist */,
 				AD7D80C91E6C105300255C42 /* co.jpg */,
 				AD8536561E6D04DB00D8FD7E /* CustomCollectionViewCell.swift */,
@@ -664,6 +664,7 @@
 				AD8536591E6D08D200D8FD7E /* rock.png in Resources */,
 				04777DAA1E72F566006E481C /* icon_treasure.png in Resources */,
 				047AA8A01E72CB4E0035C06B /* icon_chosse.png in Resources */,
+				04777DE81E736E27006E481C /* Roundish Toons.ttf in Resources */,
 				047AA89F1E72CB4E0035C06B /* icon_camera.ico in Resources */,
 				047AA8DD1E72EE8B0035C06B /* icon_profile.png in Resources */,
 				047AA8C91E72E6E90035C06B /* icon_back.png in Resources */,
@@ -681,11 +682,9 @@
 				047AA8AA1E72CB4E0035C06B /* icon_speaker.png in Resources */,
 				047AA8CF1E72E96A0035C06B /* icon_close.png in Resources */,
 				04777DC31E734232006E481C /* iconok.png in Resources */,
-				ADDAC35B1E6B33BB003DA29B /* Assets.xcassets in Resources */,
 				04777DA81E72F25F006E481C /* icon_video.png in Resources */,
 				ADDAC3591E6B33BB003DA29B /* Main.storyboard in Resources */,
 				04777DD11E7345AA006E481C /* wordgame_background.png in Resources */,
-				04777DBF1E733F48006E481C /* Roundish Toons.ttf in Resources */,
 				AD7D80CA1E6C105300255C42 /* co.jpg in Resources */,
 				04777DCD1E73452A006E481C /* sentence_game_header.png in Resources */,
 				04777DCF1E734562006E481C /* sentencegame_background.png in Resources */,
@@ -698,6 +697,7 @@
 				047AA89E1E72CB4E0035C06B /* background.jpg in Resources */,
 				04777DA71E72F25F006E481C /* icon_game.png in Resources */,
 				047AA8DB1E72EE650035C06B /* icon_edit_profile.png in Resources */,
+				04777DE61E736679006E481C /* Assets.xcassets in Resources */,
 				0461E4C61E71B2B600A5A026 /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

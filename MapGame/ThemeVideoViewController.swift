@@ -32,7 +32,11 @@ class ThemeVideoViewController: BaseViewController,UITableViewDataSource , UITab
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PlaylistTableViewCell") as! PlaylistTableViewCell
         cell.imagePlaylist.image = UIImage(named: VideoConstain.arrayImagePlaylist[indexPath.row])
+        cell.imagePlaylist.layer.cornerRadius = 5
+        cell.imagePlaylist.clipsToBounds = true
+        
         cell.lblDescription.text = VideoConstain.arrayDescriptionPlaylist[indexPath.row]
+        
         return cell
     }
     func numberOfSections(in tableView: UITableView) -> Int {
