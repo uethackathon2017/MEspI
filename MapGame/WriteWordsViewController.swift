@@ -3,7 +3,7 @@
 //  MapGame
 //
 //  Created by Nguyễn Đức Tài on 3/11/17.
-//  Copyright © 2017 TranAn. All rights reserved.
+//  Copyright © 2017 TranAn. All rights reserved.okbay be
 //
 
 import UIKit
@@ -98,6 +98,10 @@ class WriteWordsViewController: UIViewController,G8TesseractDelegate {
             }
         }
         
+    }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
     }
     
     @IBAction func clickBack(_ sender: Any) {
