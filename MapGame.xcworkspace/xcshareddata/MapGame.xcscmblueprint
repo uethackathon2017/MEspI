@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "03FBA65DEFA3415BACBF70D6E6651A62049C3245",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "03FBA65DEFA3415BACBF70D6E6651A62049C3245" : 9223372036854775807,
+    "71F5D8D885CFF6BD7151066D7BFF25CC48A5235E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "69C5AD8D-5FDE-428A-92BD-4E73FCC0F4AF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "03FBA65DEFA3415BACBF70D6E6651A62049C3245" : "MapGame\/",
+    "71F5D8D885CFF6BD7151066D7BFF25CC48A5235E" : "MapGame\/MapGame\/Spring\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MapGame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MapGame.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/uethkt-mespi\/MEspI_HKT.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03FBA65DEFA3415BACBF70D6E6651A62049C3245"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MengTo\/Spring",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71F5D8D885CFF6BD7151066D7BFF25CC48A5235E"
+    }
+  ]
+}
