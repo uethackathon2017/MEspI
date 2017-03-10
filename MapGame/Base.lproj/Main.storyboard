@@ -326,8 +326,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="imageView" destination="IxE-ne-vbk" id="WcW-fQ-rxv"/>
-                                            <outlet property="lblDescription" destination="XMm-91-lC1" id="Nzf-jH-yMa"/>
+                                            <outlet property="img" destination="IxE-ne-vbk" id="5B8-rg-3Lo"/>
+                                            <outlet property="lblDescription" destination="XMm-91-lC1" id="d1G-rf-WGh"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

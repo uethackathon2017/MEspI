@@ -11,6 +11,7 @@ import UIKit
 class PlaylistConstain {
     public static let arrayPlaylist = ["CharacterA","dog","apple","doctor","chair","ruler"]
     public static let arrayDescriptionPlaylist = ["Từ vựng","Động vật","Các loại quả","Nghề nghiệp","Đồ dùng gia đình","Các loài hoa","Đồ dùng học tập"];
+    public static let arrayImage = ["","","","","",""]
     public static let arrayDongVat = ["BPKTPd6jFos","WC7xwWUfwxA","WKqDwyCOy18","kmUZkhJvtQ0","HXghccVT4zk","M1S3ef_KKWA","9OhAKAD_IQw"]
     public static let arrayNgheNghiep = ["9ENVJM55mLY","wzC2wtaj_jA","R69YKFmlcnA","v-HZNelHoLk","bjyqbExDAs8","wRxFY4wZvBE","MdvTlQzsaYI"]
     public static let arrayDoDungGiaDinh = ["l9Sxto2a4Xg","-9P3VqHgloA","xZ_jeD9VfT4","gL7E631bVr0","L3nigtEU7rE","1P4WUrOYUyk","50bo4DgRnYw"]
