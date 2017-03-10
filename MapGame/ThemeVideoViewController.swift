@@ -8,14 +8,16 @@
 
 import UIKit
 
-class ThemeVideoViewController: BaseViewController {
+class ThemeVideoViewController: BaseViewController,UITableViewDataSource , UITableViewDelegate {
 
+    @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableView.delegate = self
+        tableView.dataSource = self
         // Do any additional setup after loading the view.
     }
 
@@ -24,25 +26,26 @@ class ThemeVideoViewController: BaseViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    //1
-    public func numberOfSections(in collectionView: UICollectionView) -> Int {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UIScreen.main.bounds.size.width*9/32
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "PlaylistTableViewCell") as! PlaylistTableViewCell
+        cell.imagePlaylist.image = UIImage(named: VideoConstain.arrayImagePlaylist[indexPath.row])
+        cell.lblDescription.text = VideoConstain.arrayDescriptionPlaylist[indexPath.row]
+        return cell
+    }
+    func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-    
-    //2
-    public func collectionView(_ collectionView: UICollectionView,
-                                 numberOfItemsInSection section: Int) -> Int {
-        return 5
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return VideoConstain.arrayImagePlaylist.count
     }
-    
-    //3
-    public func collectionView(_ collectionView: UICollectionView,
-                                 cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell",
-                                                      for: indexPath)
-        cell.backgroundColor = UIColor.black
-        // Configure the cell
-        return cell
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier :"VideoViewController") as! VideoViewController
+        viewController.keyword = VideoConstain.arrayKeyword[indexPath.row]
+        self.present(viewController, animated: true)
     }
 
 }

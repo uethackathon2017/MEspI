@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>NMPopUpViewSwift-NMPopUpViewSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -15,6 +20,11 @@
 			<false/>
 		</dict>
 		<key>Pods-MapGame.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,7 +42,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A3A66E1D0EEAB83C41E272A9D5255C23</key>
+		<key>8781C54546072D5DB9EE5A5AF3EDB685</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E3E9D60539C03D0C81A72C14F327B2AA</key>
+		<key>E13D4E08E79B7E995F73B2E38A480743</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F51BF302C679D3E62362194A103D6E9D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

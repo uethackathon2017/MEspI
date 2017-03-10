@@ -25,6 +25,10 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     @IBAction func clickCameraWrite(_ sender: Any) {
         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         vcCameraText = storyboard.instantiateViewController(withIdentifier: "CameraSpeakViewController") as UIViewController as! CameraSpeakViewController

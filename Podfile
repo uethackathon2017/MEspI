@@ -4,4 +4,6 @@ use_frameworks!
 target 'MapGame' do
 	pod 'NMPopUpViewSwift'
     pod 'TesseractOCRiOS', '4.0.0'
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
 end

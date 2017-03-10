@@ -9,7 +9,7 @@
 import UIKit
 import NMPopUpViewSwift
 
-class ViewController: UIViewController {
+class ViewController:  BaseViewController {
     
     @IBOutlet var viewGame: UIView!
     
@@ -33,24 +33,13 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         
     }
-    
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
 
-    @IBAction func clickBack(_ sender: Any) {
-        self.dismiss(animated: true) {
-            
-        }
-    }
-    
-    @IBAction func clickBackHome(_ sender: Any) {
-        
+    @IBAction func clickRootView(_ sender: Any) {
         var vc : UIViewController = self;
         while ((vc.presentingViewController) != nil) {
             vc = vc.presentingViewController!;
         }
-        vc.dismiss(animated: true) { 
+        vc.dismiss(animated: true) {
             
         }
     }
