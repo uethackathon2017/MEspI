@@ -14,15 +14,30 @@ class ViewController:  BaseViewController {
     @IBOutlet var viewGame: UIView!
     
     @IBOutlet weak var collectionView: UICollectionView!
-    var arrMatrix = [0,0,0,0,1,0,0,1,2
-                    ,0,2,0,0,1,0,2,0,1
+    var arrMatrix = [9,0,0,0,1,0,0,1,2
+                    ,0,2,1,1,1,0,2,0,1
                     ,1,0,0,0,2,1,0,0,2
-                    ,1,0,0,0,1,0,0,2,0
-                    ,1,1,0,0,0,0,0,2,0
+                    ,0,0,2,0,1,0,0,2,0
+                    ,1,1,0,0,0,1,1,2,0
                     ,1,1,2,2,0,0,0,2,1
-                    ,2,1,1,0,0,0,0,2,0
+                    ,2,1,1,1,0,0,0,2,0
                     ,1,1,2,2,1,0,0,0,0
-                    ,0,0,0,1,2,0,2,0,1]
+                    ,0,0,0,1,2,0,2,0,8]
+    
+    let imagesStop = [
+        "nuida",
+        "honuoc",
+        "buicay"]
+    
+    let imagesQuestion = [
+        "question",
+        "box_question",
+        "gift"]
+    
+    let imagesFinish = [
+        "finish",
+        "finish_2"]
+    
     
     var popViewController : TrueFalseViewController!
     
@@ -51,13 +66,14 @@ extension ViewController : UICollectionViewDelegate{
     {
         print("ok")
         
+        /*
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-
         let viewController = storyboard.instantiateViewController(withIdentifier: "TrueFalseViewController") as!
         TrueFalseViewController
         self.popViewController = viewController
         self.popViewController.showInView(self.view, withImage: UIImage(named: "typpzDemo"), withMessage: "You just triggered a great popup window", animated: true)
         
+        */
     }
 
 }
@@ -73,18 +89,31 @@ extension ViewController : UICollectionViewDataSource{
         
         var cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CustomCollectionViewCell
         if arrMatrix[indexPath.row] == 0 {
-            cell.imageView.image = UIImage(named : "co.jpg")
             cell.imageView.layer.cornerRadius = 10;
             cell.imageView.layer.shadowOpacity = 0.5;
             cell.imageView.layer.masksToBounds = false;
             cell.imageView.clipsToBounds = false;
         }else{
-            if arrMatrix[indexPath.row] == 2 {
-                cell.imageView.image = UIImage(named : "rock.png")
-            }else{
-                if arrMatrix[indexPath.row] == 1{
-                cell.imageView.image = UIImage(named : "question-mark.png")
-                }
+            if arrMatrix[indexPath.row] == 9 {
+                cell.imageView.image = UIImage(named : "songoku")
+            }
+            else if arrMatrix[indexPath.row] == 2 {
+                let arrayCount = UInt32(imagesQuestion.count)
+                let unsignedRandomNumber = arc4random_uniform(arrayCount)
+                let randomNumber = Int(unsignedRandomNumber)
+                cell.imageView.image = UIImage(named : imagesQuestion[randomNumber])
+            }
+            else if arrMatrix[indexPath.row] == 1{
+                let arrayCount = UInt32(imagesStop.count)
+                let unsignedRandomNumber = arc4random_uniform(arrayCount)
+                let randomNumber = Int(unsignedRandomNumber)
+                cell.imageView.image = UIImage(named : imagesStop[randomNumber])
+            }
+            else if arrMatrix[indexPath.row] == 8{
+                let arrayCount = UInt32(imagesFinish.count)
+                let unsignedRandomNumber = arc4random_uniform(arrayCount)
+                let randomNumber = Int(unsignedRandomNumber)
+                cell.imageView.image = UIImage(named : imagesFinish[randomNumber])
             }
         }
         return cell
