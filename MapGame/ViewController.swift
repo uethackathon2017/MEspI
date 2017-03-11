@@ -64,18 +64,29 @@ class ViewController:  BaseViewController {
 extension ViewController : UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)
     {
-        print("ok")
-        
-        /*
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "TrueFalseViewController") as!
-        TrueFalseViewController
-        self.popViewController = viewController
-        self.popViewController.showInView(self.view, withImage: UIImage(named: "typpzDemo"), withMessage: "You just triggered a great popup window", animated: true)
-        
-        */
-    }
+        if arrMatrix[indexPath.row] == 2 {
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
+            let randomNum:UInt32 = arc4random_uniform(3) // range is 0 to 2
+            
+            let someInt:Int = Int(randomNum)
+            
+            if someInt == 0 {
+                let viewController = storyboard.instantiateViewController(withIdentifier: "TrueFalseViewController") as! TrueFalseViewController
+                
+                self.popViewController = viewController
+                self.popViewController.showInView(self.view, withImage: UIImage(named: ""), withMessage: "", animated: true)
+            }
+            if someInt == 1 {
+                print("question 2")
+            }
+            if someInt == 2 {
+                print("question 3")
+            }
+        }
+        
+    }
 }
 extension ViewController : UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
