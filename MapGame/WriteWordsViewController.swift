@@ -30,6 +30,7 @@ class WriteWordsViewController: UIViewController,G8TesseractDelegate {
         super.viewDidLoad()
         curImage = 0;
         timer = Timer.scheduledTimer(timeInterval:5, target: self, selector: #selector(WriteWordsViewController.check), userInfo: nil, repeats: true)
+        //fix
         //        if let tesseract = G8Tesseract(language: "eng") {
         //            tesseract.delegate = self
         //            tesseract.image = UIImage(named: "1.png")?.g8_blackAndWhite()
