@@ -42,7 +42,7 @@ class TrueFalseViewController:  ShowPopupViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         numberQuestion = 0
-        answerTrue = "Đây là đáp án đúng"
+        answerTrue = "Banana"
         btnNextQuestion.isHidden = false
         lblTitle.text = "1/3"
 
