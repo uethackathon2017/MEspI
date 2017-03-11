@@ -74,6 +74,10 @@ extension ViewController : UICollectionViewDataSource{
         var cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CustomCollectionViewCell
         if arrMatrix[indexPath.row] == 0 {
             cell.imageView.image = UIImage(named : "co.jpg")
+            cell.imageView.layer.cornerRadius = 10;
+            cell.imageView.layer.shadowOpacity = 0.5;
+            cell.imageView.layer.masksToBounds = false;
+            cell.imageView.clipsToBounds = false;
         }else{
             if arrMatrix[indexPath.row] == 2 {
                 cell.imageView.image = UIImage(named : "rock.png")

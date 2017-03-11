@@ -10,7 +10,6 @@ import UIKit
 
 class TrueFalseViewController:  ShowPopupViewController {
 
-    
     @IBOutlet weak var viewShowImage: ViewCharacter!
     @IBOutlet weak var imgShow: UIImageView!
     @IBOutlet weak var btnTrue: ClickButton!
@@ -35,9 +34,11 @@ class TrueFalseViewController:  ShowPopupViewController {
     
     
     @IBAction func clickRemoveView(_ sender: Any) {
+        
         removeAnimate()
     }
-
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -103,6 +104,7 @@ class TrueFalseViewController:  ShowPopupViewController {
             stringTitle = String(numberQuestion+1) + "/3" as NSString
             lblTitle.text = stringTitle as String
             btnNextQuestion.isHidden = true
+            //sleep(4)
         }
     }
     
