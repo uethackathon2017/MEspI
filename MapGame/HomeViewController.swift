@@ -32,7 +32,9 @@ class HomeViewController: UIViewController {
     @IBAction func clickCameraWrite(_ sender: Any) {
         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         vcCameraText = storyboard.instantiateViewController(withIdentifier: "CameraSpeakViewController") as UIViewController as! CameraSpeakViewController
-        self.present(vcCameraText, animated: true, completion: nil)
+        var navigationController = UINavigationController(rootViewController: vcCameraText)
+        navigationController.isNavigationBarHidden = true
+        self.navigationController?.present(navigationController, animated: true, completion: nil)
     }
 
     @IBAction func clickGame(_ sender: Any) {

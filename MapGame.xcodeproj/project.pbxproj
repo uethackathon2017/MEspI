@@ -63,6 +63,7 @@
 		047AA8BD1E72D2590035C06B /* CameraSpeakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AA8BC1E72D2590035C06B /* CameraSpeakViewController.swift */; };
 		047AA8BF1E72D2F70035C06B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AA8BE1E72D2F70035C06B /* ProfileViewController.swift */; };
 		047AA8C11E72D31E0035C06B /* ThemeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AA8C01E72D31E0035C06B /* ThemeVideoViewController.swift */; };
+		04FDA7A51E74216800AB4336 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FDA7A41E74216800AB4336 /* ImagePickerViewController.swift */; };
 		548F9B90F5329E981F190BD9 /* Pods_MapGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBEE96B3B580182B97A56D0 /* Pods_MapGame.framework */; };
 		AD8536571E6D04DB00D8FD7E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8536561E6D04DB00D8FD7E /* CustomCollectionViewCell.swift */; };
 		ADDAC3541E6B33BB003DA29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAC3531E6B33BB003DA29B /* AppDelegate.swift */; };
@@ -152,6 +153,7 @@
 		047AA8BC1E72D2590035C06B /* CameraSpeakViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraSpeakViewController.swift; sourceTree = "<group>"; };
 		047AA8BE1E72D2F70035C06B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		047AA8C01E72D31E0035C06B /* ThemeVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeVideoViewController.swift; sourceTree = "<group>"; };
+		04FDA7A41E74216800AB4336 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePickerViewController.swift; path = TestTrueFalse/ImagePickerViewController.swift; sourceTree = "<group>"; };
 		76588B8CB5427B02E6C47F57 /* Pods-MapGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapGame/Pods-MapGame.release.xcconfig"; sourceTree = "<group>"; };
 		AD8536561E6D04DB00D8FD7E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		ADDAC3501E6B33BB003DA29B /* MapGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,6 +213,7 @@
 				0461E47C1E71B2B600A5A026 /* Spring */,
 				0461E46E1E71B17A00A5A026 /* Camera */,
 				0461E4741E71B17A00A5A026 /* TestTrueFalse */,
+				04FDA7A41E74216800AB4336 /* ImagePickerViewController.swift */,
 				047AA85F1E72CAF40035C06B /* HomeViewController.swift */,
 				047AA8BC1E72D2590035C06B /* CameraSpeakViewController.swift */,
 				047AA8B61E72CF8B0035C06B /* GameWriteViewController.swift */,
@@ -657,6 +660,7 @@
 				0461E4BD1E71B2B600A5A026 /* DesignableLabel.swift in Sources */,
 				0461E4CA1E71B2B600A5A026 /* SpringAnimation.swift in Sources */,
 				047AA8C11E72D31E0035C06B /* ThemeVideoViewController.swift in Sources */,
+				04FDA7A51E74216800AB4336 /* ImagePickerViewController.swift in Sources */,
 				047AA8601E72CAF40035C06B /* HomeViewController.swift in Sources */,
 				ADDAC3541E6B33BB003DA29B /* AppDelegate.swift in Sources */,
 				0461E4C51E71B2B600A5A026 /* LoadingView.swift in Sources */,
