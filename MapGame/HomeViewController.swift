@@ -15,9 +15,21 @@ class HomeViewController: UIViewController {
     var vcThemeVideo = ThemeVideoViewController()
     var vcProfile = ProfileViewController()
     
+    
+    @IBOutlet weak var btnVideo: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let go_userDefaults = Foundation.UserDefaults.standard
+        let value  = go_userDefaults.string(forKey: "CheckUploadData")
+        if !(value == "OK"){
+            let vc = AddDataViewController()
+            vc.loadData()
+        }
+        
+        btnVideo.layer.cornerRadius = 15
+        btnVideo.clipsToBounds = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,6 +65,8 @@ class HomeViewController: UIViewController {
         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         vcProfile = storyboard.instantiateViewController(withIdentifier: "ProfileViewController") as UIViewController as! ProfileViewController
         self.present(vcProfile, animated: true, completion: nil)
+        
+        
     }
     
 }

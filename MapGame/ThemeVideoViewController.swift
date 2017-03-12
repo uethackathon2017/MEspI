@@ -36,7 +36,7 @@ class ThemeVideoViewController: BaseViewController,UITableViewDataSource , UITab
         cell.imagePlaylist.clipsToBounds = true
         
         cell.lblDescription.text = VideoConstain.arrayDescriptionPlaylist[indexPath.row]
-        
+                
         return cell
     }
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -49,6 +49,7 @@ class ThemeVideoViewController: BaseViewController,UITableViewDataSource , UITab
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier :"VideoViewController") as! VideoViewController
         viewController.keyword = VideoConstain.arrayKeyword[indexPath.row]
+        viewController.stringTitle = VideoConstain.arrayDescriptionPlaylist[indexPath.row]
         self.present(viewController, animated: true)
     }
 

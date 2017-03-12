@@ -21,6 +21,15 @@ class CameraSpeakViewController: BaseViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
+    @IBAction func clickText(_ sender: Any) {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        var vcCameraText = storyboard.instantiateViewController(withIdentifier: "TextToSpeechViewController") as UIViewController as! TextToSpeechViewController
+        self.navigationController?.pushViewController(vcCameraText, animated: true)
+
+    }
+    
+    
     
     @IBAction func clickTakePhoto(_ sender: Any) {
         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)

@@ -12,15 +12,21 @@ import SwiftyJSON
 class VideoViewController: BaseViewController ,UITableViewDataSource , UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var lblTitle: UILabel!
+    var stringTitle = ""
+    
     
     var keyword:String = ""
     var arrayVideo:[Video] = []
     override func viewDidLoad() {
         super.viewDidLoad()
+
         tableView.delegate = self
         tableView.dataSource = self
         // Do any additional setup after loading the view.
         getVideoWithKeyWord(key:keyword)
+        
+        lblTitle.text = stringTitle
     }
     
     override func didReceiveMemoryWarning() {

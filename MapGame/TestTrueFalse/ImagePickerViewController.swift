@@ -15,7 +15,7 @@
 import UIKit
 import SwiftyJSON
 import MobileCoreServices
-
+import AVFoundation
 
 class ImagePickerViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     let imagePicker = UIImagePickerController()
@@ -35,6 +35,15 @@ class ImagePickerViewController: UIViewController, UIImagePickerControllerDelega
         return URL(string: "https://vision.googleapis.com/v1/images:annotate?key=\(googleAPIKey)")!
     }
     
+    @IBAction func clickBtnSound(_ sender: Any) {
+        var string:String = labelResults.text!
+        let utterance = AVSpeechUtterance(string:string)
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
+        utterance.rate = 0.4
+        
+        let synthesizer = AVSpeechSynthesizer()
+        synthesizer.speak(utterance)
+    }
     @IBAction func loadImageButtonTapped(_ sender: UIButton) {
        
     }
@@ -57,7 +66,7 @@ class ImagePickerViewController: UIViewController, UIImagePickerControllerDelega
         super.viewDidLoad()
         
        
-
+        imageView.alpha = 0.5
         // Do any additional setup after loading the view, typically from a nib.
 //        imagePicker.delegate = self
 //        labelResults.isHidden = true
@@ -100,6 +109,11 @@ class ImagePickerViewController: UIViewController, UIImagePickerControllerDelega
 //        let binaryImageData = base64EncodeImage(image)
 //        createRequest(with: binaryImageData)
     }
+    
+    @IBAction func touchRoundCamera(_ sender: Any) {
+        present(imagePicker, animated: true, completion: nil)
+    }
+    
 }
 
 
@@ -167,6 +181,8 @@ extension ImagePickerViewController {
                 let labelAnnotations: JSON = responses["labelAnnotations"]
                 let numLabels: Int = labelAnnotations.count
                     self.labelResults.text = labelAnnotations[0]["description"].stringValue
+                    self.spinner.isHidden = true
+                    self.imageView.alpha = 1
                 }
         })
         
@@ -201,7 +217,22 @@ extension ImagePickerViewController {
     }
 }
 
-
+extension UIImage {
+    func resized(withPercentage percentage: CGFloat) -> UIImage? {
+        let canvasSize = CGSize(width: size.width * percentage, height: size.height * percentage)
+        UIGraphicsBeginImageContextWithOptions(canvasSize, false, scale)
+        defer { UIGraphicsEndImageContext() }
+        draw(in: CGRect(origin: .zero, size: canvasSize))
+        return UIGraphicsGetImageFromCurrentImageContext()
+    }
+    func resized(toWidth width: CGFloat) -> UIImage? {
+        let canvasSize = CGSize(width: width, height: CGFloat(ceil(width/size.width * size.height)))
+        UIGraphicsBeginImageContextWithOptions(canvasSize, false, scale)
+        defer { UIGraphicsEndImageContext() }
+        draw(in: CGRect(origin: .zero, size: canvasSize))
+        return UIGraphicsGetImageFromCurrentImageContext()
+    }
+}
 /// Networking
 
 extension ImagePickerViewController {
@@ -209,11 +240,10 @@ extension ImagePickerViewController {
         var imagedata = UIImagePNGRepresentation(image)
         
         // Resize the image if it exceeds the 2MB API limit
-        if (imagedata?.count > 2097152) {
+        
             let oldSize: CGSize = image.size
-            let newSize: CGSize = CGSize(width: 800, height: oldSize.height / oldSize.width * 800)
+            let newSize: CGSize = CGSize(width: 200, height: oldSize.height / oldSize.width * 200)
             imagedata = resizeImage(newSize, image: image)
-        }
         
         return imagedata!.base64EncodedString(options: .endLineWithCarriageReturn)
     }
